@@ -95,7 +95,7 @@ def extract_place(file_content):
     # TODO   Once you've got the code working for all five lines, add a conditional that checks to see if
     # TODO   the line starts with a #; if it does, ignore that line.
 
-    for i in range(5):
+    for i in range(5):                  # CHECK LENGTH IS 000000000000000000000000000000000000000000000
 
         name = file_content.readline().strip("\n")
         if "#" in name[0]:
@@ -110,7 +110,7 @@ def extract_place(file_content):
         if "#" in lon[3]:
             file_content.readline()
         color = file_content.readline().strip("\n")
-        if "#" in color[2]:
+        if "#" in color[4]:
             file_content.readline()
 
     # FIXME Construct a tuple with all five values in the correct order. Don't forget types, and tuples are immutable!
