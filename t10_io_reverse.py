@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Emily Lovell & Scott Heggen      TODO: Change this to your names
-# Username: lovelle & heggens             TODO: Change this to your usernames
+# Author: Brian Cox and Sean Mayers
+# Username: coxb and mayerss
 #
 # Assignment: T10: Oh, the Places You'll Go!
 #
