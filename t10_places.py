@@ -95,23 +95,29 @@ def extract_place(file_content):
     # TODO   Once you've got the code working for all five lines, add a conditional that checks to see if
     # TODO   the line starts with a #; if it does, ignore that line.
 
-    for i in range(5):                  # CHECK LENGTH IS 000000000000000000000000000000000000000000000
+    # for i in range(5):                  # CHECK LENGTH IS 000000000000000000000000000000000000000000000
+    #
+    #     name = file_content.readline().strip("\n")
+    #     if "#" in name[0]:
+    #         file_content.readline()
+    #     hometown = file_content.readline().strip("\n")
+    #     if "#" in hometown[1]:
+    #         file_content.readline()
+    #     lat = file_content.readline().strip("\n")
+    #     if "#" in lat[2]:
+    #         file_content.readline()
+    #     lon = file_content.readline().strip("\n")
+    #     if "#" in lon[3]:
+    #         file_content.readline()
+    #     color = file_content.readline().strip("\n")
+    #     if "#" in color[4]:
+    #         file_content.readline()
 
-        name = file_content.readline().strip("\n")
-        if "#" in name[0]:
-            file_content.readline()
-        hometown = file_content.readline().strip("\n")
-        if "#" in hometown[1]:
-            file_content.readline()
-        lat = file_content.readline().strip("\n")
-        if "#" in lat[2]:
-            file_content.readline()
-        lon = file_content.readline().strip("\n")
-        if "#" in lon[3]:
-            file_content.readline()
-        color = file_content.readline().strip("\n")
-        if "#" in color[4]:
-            file_content.readline()
+    name = file_content.readline().strip("\n")
+    hometown = file_content.readline().strip("\n")
+    lat = file_content.readline().strip("\n")
+    lon = file_content.readline().strip("\n")
+    color = file_content.readline().strip("\n")
 
     # FIXME Construct a tuple with all five values in the correct order. Don't forget types, and tuples are immutable!
     # Example: place_tuple = ("Scott's example", "Somewhere special", 41, -10, "black")

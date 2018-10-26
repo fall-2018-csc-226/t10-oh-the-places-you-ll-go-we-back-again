@@ -1,23 +1,23 @@
 4
-Scott
-Hometown: New Virginia, IA
-41.156537
--93.7107200
+Brian
+Hometown: Chicago, IL
+41.878113
+-87.629799
 darkblue
-Scott
-Awesome city: Edinburgh, Scotland
-55.950190
--3.187550
+Brian
+Awesome city: Greece
+39.074207
+21.824312
 lightgreen
-Emily
-Hometown: Pittsburgh, PA
-40.932850
--80.358543
+Sean
+Hometown: New Jersey
+40.058323
+-74.405663
 orange
-Emily
-Most Interesting Place: Reykjavik, Iceland
-64.147210
--21.942400
+Sean
+Most Interesting Place: Australia
+-25.274399
+133.775131
 red
 
 
